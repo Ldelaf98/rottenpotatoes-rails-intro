@@ -18,8 +18,6 @@ class MoviesController < ApplicationController
       @title_header = 'hilite'
     elsif params[:sort] == 'release_date'
       @release_header = 'hilite'
-    else
-      @rating_header = 'hilite'
     end
         
   end
